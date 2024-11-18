@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  height: 100%;
+  width:100%;
+  background: radial-gradient(circle at top right ,#c23f90 8%,#000080 ,#000000 50%);
+    color:white ;
+ 
+}
+
+.b1{
+  height: 10vh;
+  background-color: #000000;
+}
+ .F1{
+  height:100%;
+  background-color: burlywood;
+  width: 100%;
+ }
+
+ .foot{
+  margin-top: 80px;
+  border-top: 1px solid white;
+ }
+ 
+
+

@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+}
+.body{
+     /* background-color: blue;  */
+    height: 400px;
+    width: 100%;
+   line-height: 40px;
+   padding: 70px 220px;
+   
+}
+.body p{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 70px;
+    
+    
+}
+.body p:nth-child(3){
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+    .Gradient {
+        font-size: 3rem; /* Adjust the size as needed */
+        font-weight: bold; /* Optional: make the text bold */
+        font-size: 3rem; /* Adjust the size as needed */
+        background: linear-gradient(to right, #361cdd,#1dc1eb, #e116a4); /* Gradient colors */
+        -webkit-background-clip: text; /* Clip the background to text */
+        -webkit-text-fill-color:transparent; /* Make text color transparent to show gradient */
+        background-clip: text; 
+    }
+    .body button{
+        padding: 0 15px;
+        background: linear-gradient(to right, #361cdd,#1dc1eb, #e116a4);
+        color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight:200;
+        margin-top: 5px;
+    }

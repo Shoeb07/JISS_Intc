@@ -1,0 +1,88 @@
+.Footer{
+    width: 100%;
+    height: 10px;
+    /* background-color: brown; */
+display: flex;
+margin-top: 30px;
+border-top: 1px-solid white;
+border-style: dashed;
+}
+    
+    .part2{
+        /* background-color: green; */
+    padding-left:100px ;
+
+    margin-left: 500px;
+    width:20%;
+    /* border: 1px solid white; */
+    }
+    .part3{
+        /* background-color: yellow; */
+    margin-right: 60px;
+
+    }
+    .part4{
+        /* background-color: violet; */
+    align-items:center;
+    justify-items: center;
+
+    }
+        .part1 h6,.part2 h6,.part3 h6,.part4 h6{
+            line-height: 30px;
+            font-size: 13px;
+padding-left: 80px;
+        }
+    .part2 h6:nth-last-child(1){
+        line-height:15px;
+        font-size: 13px;
+    }
+    .part3 h6:nth-last-child(2){
+        line-height:15px;
+        font-size: 13px;
+    margin-right: 20px;
+    }
+.part4 h6{
+    padding-right: 40px;
+    font-size: 13px;
+    margin-right: 40px;
+}
+.part2 h6{
+    padding-left: 0;
+}
+.Footer .part1{
+    padding-left: 0px;
+    /* box-shadow: #b61cb9 0px 0px 5px 3px; */
+    margin-right: 1400px;
+
+    /* border: 1px solid white; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-shadow: 6px 8px 9px #cad3e2; */
+margin-left: 100px;
+position:absolute;
+font-size: 100px; /* Adjust the size as needed */
+        font-weight: bold; /* Optional: make the text bold */
+        font-size: 3rem; /* Adjust the size as needed */
+        background: linear-gradient(to right, #9e92ed,#b61cb9, #d670b8); /* Gradient colors */
+        -webkit-background-clip: text; /* Clip the background to text */
+        -webkit-text-fill-color:transparent; /* Make text color transparent to show gradient */
+        background-clip: text;
+}
+.para{
+    /* background:yellow; */
+    height:150px;
+    padding-left: 50px;
+    margin-top: 90px;
+}
+.name{
+    height: 70px;
+    /* width: 150px; */
+    /* border: 1px solid white; */
+    position: absolute;
+    margin-left: 185px;
+    bottom:-1696px
+}
+.name p{
+    font-size: 12px;
+}
+
+
