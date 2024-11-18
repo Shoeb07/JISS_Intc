@@ -1,95 +1,55 @@
-.Bottom{
-    height: 100%;
-    width: 80%;
-     /* background-color: brown; */
-    margin:90px 0 0 215px ;
-    padding: 0;
+.Bottom {
+  height: 100%;
+  width: 70%;
+  /* margin: 90px 0 0 215px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: tomato; */
+  margin: 0 auto;
+  padding: 30px;
 }
-.Bottom h5{
-    font-size: 25px;
-    padding: 40px 0;;
-    
+.Bottom h5 {
+  font-size: 25px;
+  padding: 40px 0;
 }
-.Bottom p:nth-child(n-2){
-    font-size: 20px;
-    font-weight: 100;
-    padding: 15px 0;
-    font-family:sans-serif;
-    
+.Bottom p:nth-child(n-2) {
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px 0;
+  font-family: sans-serif;
+  
 }
-.Bottom h1{
-    font-size: 40px;
-    padding: 15px 0;
-     background: linear-gradient(to right, #361cdd,#1dc1eb, #e116a4);
-    -webkit-background-clip: text; /* Clip the background to text */
-    -webkit-text-fill-color:transparent; /* Make text color transparent to show gradient */
-    background-clip: text; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
+.Bottom h1 {
+  font-size: 40px;
+  padding: 15px 0;
+  background: linear-gradient(to right, #361cdd, #1dc1eb, #e116a4);
+  -webkit-background-clip: text; /* Clip the background to text */
+  -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
+  background-clip: text;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
 }
-.Bottom hr{
-    width: 900px;
+.Bottom hr {
+  width: 900px;
 }
 
- #innerbox1 p{
-font-size: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-/* background: #000; */
-width: 450px;
-height: 40px;
-margin-left:400px ;
-top: 730px;
-position: absolute;
- }
- #innerbox2 p{
-    font-size: 20px;
+/* #innerbox1 p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 450px;
+  height: 40px;
+  margin-left: 400px;
+  top: 730px;
+  position: absolute;
+} */
+
+.ourServices{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #000; */
-    width: 450px;
-    height: 35px;
-    margin-left:400px ;
-    top: 920px;
-    position: absolute;
-     }
-     #innerbox3 p{
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* background: #000; */
-        width: 450px;
-        height: 35px;
-        margin-left:400px ;
-        top: 1095px;
-        position: absolute;
-         }
-         #innerbox4 p{
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* background: #000; */
-            width: 450px;
-            height: 35px;
-            margin-left:400px ;
-            top: 1245px;
-            position: absolute;
-             }
-             #innerbox5 p{
-                font-size: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                /* background: #000; */
-                width: 450px;
-                height: 35px;
-                margin-left:400px ;
-                top: 1400px;
-                position: absolute;
-                 }
-     
- 
+    width: 100%;
+    /* background-color: #361cdd; */
+    gap: 35px;
+}

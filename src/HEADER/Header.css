@@ -1,86 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-.header .gradient  {
-    width: 150px;
-    height: 80px;
-    padding-left: 0px;
-    /* box-shadow: #b61cb9 0px 0px 5px 3px; */
-    margin-right: 1400px;
-    top: 12px;
-    /* border: 1px solid white; */
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* text-shadow: 6px 8px 9px #cad3e2; */
-    margin-bottom: 0;
-position:absolute;
-font-size: 120px; /* Adjust the size as needed */
-        font-weight: bold; /* Optional: make the text bold */
-        font-size: 3rem; /* Adjust the size as needed */
-        background: linear-gradient(to right, #9e92ed,#b61cb9, #d670b8); /* Gradient colors */
-        -webkit-background-clip: text; /* Clip the background to text */
-        -webkit-text-fill-color:transparent; /* Make text color transparent to show gradient */
-        background-clip: text;
+.header .gradient {
+  /* width: 150px;
+  height: 80px; */
+  /* padding-left: 0px; */
 
+  /* margin-right: 1400px; */
+  /* top: 12px; */
 
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  /* margin-bottom: 0; */
+  /* position: absolute; */
+  font-size: 120px;
+  font-weight: bold;
+  font-size: 3rem;
+  background: linear-gradient(
+    to right,
+    #9e92ed,
+    #b61cb9,
+    #d670b8
+  ); /* Gradient colors */
+  -webkit-background-clip: text; /* Clip the background to text */
+  -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
+  background-clip: text;
 }
-.logo{
-    margin-top: 10px;
-    /* border: 1px solid white; */
-    padding-right: 20px;
-    margin-right: 600px;
-    position: absolute;
-    top: 13px;
-right: 270px;
-    
-
-
+.logo {
+  /* margin-top: 10px; */
+  /* border: 1px solid white; */
+  /* padding-right: 20px;
+  margin-right: 600px; */
+  /* position: absolute; */
+  /* top: 13px;
+  right: 270px; */
 }
-.logo p{
-    padding-bottom: 0;
-    margin-bottom: 20px;
+.logo p {
+  /* padding-bottom: 0;
+  margin-bottom: 20px; */
 }
-.header{
-     /* background-color: blue; */
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    padding-bottom: 15px;
-    gap: 20px;
-    padding-left: 400px;
+.header {
+  /* background-color: blue; */
+  height: 11vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 15px; */
+  gap: 20vw;
+  padding: 10vh;
+  /* padding-left: 400px; */
 }
-.header h3{
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    font-weight: 500;
+.header h3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
 }
-.color-button{
-    padding: 9px 20px;
-    position: relative;
-
-/* background:green; */
-    width:50px;
-    display:flex;
-    align-items: flex-start;
-    justify-content:flex-start;
-    border-radius: 50px;
-    border:1px solid white;
-    margin-bottom: 4px;
-
+.color-button {
+  padding: 9px 20px;
+  position: relative;
+  /* background:green; */
+  width: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 60px;
+  border: 0.09rem solid rgba(255, 255, 255, 0.767);
+  margin-bottom: 4px;
 }
-.color{
-
-    position: absolute;
-background-color: rgb(159, 42, 210);
-height: 15px;
-width:28px;
-border-radius: 50px;
-bottom: 1px;
-right: 18px;
-
-
+.color {
+  position: absolute;
+  background-color: rgb(122, 1, 124);
+  border: 0.09rem solid rgb(130, 5, 93);
+  height: 15px;
+  width: 28px;
+  border-radius: 50px;
+  margin: -3px;
+  /* bottom: 1px; */
+  /* right: 18px; */
 }

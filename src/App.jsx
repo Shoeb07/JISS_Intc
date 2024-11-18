@@ -14,7 +14,7 @@ function App() {
 
       <Bottom />
       {/* <h1 className="bg-slate-600 text-white">hello</h1> */}
-      <Ccards />
+      <Ccards id = "contact-form" />
       <div className="foot">
         <Footer />
       </div>

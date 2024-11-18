@@ -1,40 +1,41 @@
 // import React from "react";
+import { useState } from 'react';
 import './Ccards.css'
 
-const Ccards = () => {
-  // const [result, setResult] = useState("");
+const Ccards = ({id}) => {
+  const [result, setResult] = useState("");
 
-//   const onSubmit = async (event) => {
-//     event.preventDefault();
-//     setResult("Sending....");
-//     const formData = new FormData(event.target);
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
 
-//     formData.append("access_key", "8ad0cb78-7955-44c4-8955-3b37294cb194");
+    formData.append("access_key", "cdee2c7e-19d6-4351-a47b-767df9b86151");
 
-//     const response = await fetch("https://api.web3forms.com/submit", {
-//       method: "POST",
-//       body: formData,
-//     });
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
 
-//     const data = await response.json();
+    const data = await response.json();
 
-//     if (data.success) {
-//       setResult("Form Submitted Successfully");
-//       event.target.reset();
-//     } else {
-//       console.log("Error", data);
-//       setResult(data.message);
-//     }
-//   };
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
 
   return (
-    <div className="Conatiner">
+    <div id={id} className="Conatiner">
       <div className="text m-auto ">
         <h3>
           Connect With <span>Us</span>
         </h3>
       </div>
-      <form className="form">
+      <form onSubmit={onSubmit} className="form">
         <div className="ip-Container">
           <span className="mr-3 text-red-600"></span>{" "}
           <input type="text" name="name" placeholder="Name" required />
@@ -54,10 +55,10 @@ const Ccards = () => {
             rows={5}
           />
         </div>
-        <button type="submit" className="cBtn">
+        <button type="submit"   className="cBtn">
           Submit
         </button>
-        <span className='mr-3 text-red-400 italic text-[11px]' >* indicates mandatory fields</span>
+        <p className='mandatory' >* indicates mandatory fields</p>
       </form>
        
     </div>
